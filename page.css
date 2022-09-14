@@ -1,0 +1,22 @@
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.panel-image {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 15px;
+    padding: 10px; 
+    margin: 2px;
+    border-color: #eeeeee;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.panel-image img {
+    width: 128px;
+    height: 128px;
+}
