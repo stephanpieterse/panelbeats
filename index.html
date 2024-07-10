@@ -4,28 +4,31 @@
 	<title>Panelbeats</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link type="text/css" href="page.css" rel="stylesheet">
+	<meta name="description" content="A card view generator for rhythms and pitches">
+	<link type="text/css" href="/page.css" rel="stylesheet">
 </head>
 
 <body>
 	<div class="main" id="main-holder">
-
 		<div id="div-buttons">
-
-			Sheet selector
-			<select id="sheetselect">
-				<option value=""></option>
-			</select>
-
-			Panel count <input type="number" id="panelcount" value="8" min="1" max="16" />
-			<br />
-			<div onclick="refreshPanels();"><img src="static/refresh.jpg" alt="refresh" /></div>
+			<div>
+				Sheet
+				<select id="sheetselect">
+					<option value=""></option>
+				</select>
+			</div>
+			<div>
+				<span class="inc_button decrement">-</span>Panels<input type="number" id="panelcount" value="8" min="1"
+					max="16" /><span class="inc_button increment">+</span>
+			</div>
+			<div onclick="refreshPanels();"><img class="refresh-image" src="/static/refresh.jpg" alt="refresh" /></div>
 		</div>
 
 		<div id="div-panel-images">
 		</div>
 	</div>
-	<script type="text/javascript" src="page.js"></script>
+	<script type="text/javascript" src="/sheets.js"></script>
+	<script type="text/javascript" src="/page.js"></script>
 
 </body>
 

@@ -1,22 +1,55 @@
+body {
+    font-family: sans-serif;
+    /* background-color: seashell; */
+    background-color: snow;
+}
+
 .main {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .panel-image {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: 112px;
+    height: 112px;
     border-radius: 15px;
-    padding: 10px; 
-    margin: 2px;
+    padding: 8px;
+    margin: 3px;
     border-color: #eeeeee;
     border-width: 5px;
     border-style: solid;
 }
 
 .panel-image img {
-    width: 128px;
-    height: 128px;
+    width: 112px;
+    height: 112px;
+}
+
+#div-buttons {
+    display: inline-block;
+}
+
+#div-buttons div {
+    float: left;
+    margin-left: 32px;
+}
+
+.inc_button {
+    font-size: 1.4em;
+    font-weight: bold;
+    border: 2px solid darkgray;
+    background-color: lightgrey;
+    width: 40px;
+    height: 40px;
+}
+
+#panelcount {
+    width: 64px;
+}
+
+.refresh-image {
+    height: 64px;
+    width: 72px;
 }
